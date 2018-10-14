@@ -22,6 +22,7 @@ require_once '../include/PassHash.php';
 require_once '../include/Utils.php';
 require '../vendor/autoload.php';
 
+
 $app = new \Slim\Slim();
 $app->response->headers->set('Content-Type', 'application/json');
 
